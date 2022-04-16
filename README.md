@@ -79,7 +79,7 @@ In src/main/resources/application.properties the application.properties files, w
 ```bash
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
-spring.data.mongodb.database=Test
+spring.data.mongodb.database=Student
 
 ```
 
@@ -115,7 +115,7 @@ import lombok.ToString;
 @Setter
 @ToString
 
-@Document(collection = "test")
+@Document(collection = "StudentsInfo")
 public class Testing {
 	
 	@Id
